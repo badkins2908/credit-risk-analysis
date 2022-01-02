@@ -11,7 +11,7 @@ The purpose of this analysis was to use Python to develop and evaluate the perfo
 1. RandomOverSampler model
 This model has a balanced accuracy score of 0.676, with high risk precision of 1% at a recall of 0.61 and f1-score of 0.02.
 
-<img src="Resources/RandomwOverSampler.png" width="600" height="300">
+<img src="Resources/RandomOverSampler.png" width="600" height="300">
 
 Due to the small sample size (87), the precision is low (meaning we are only correctly classifying 1% of the class) and recall is high (meaning we are capturing every sample from this class), which means the model is weak in predicting credit risk being high because it is not correctly classifying a majority of the class. 
 
